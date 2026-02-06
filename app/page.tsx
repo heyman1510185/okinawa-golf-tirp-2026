@@ -136,7 +136,7 @@ export default function Home() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-sky-100/90">
-                Travel Shiori
+                Travel Sequence
               </p>
               <h1 className="title-font text-[24px] font-bold text-white whitespace-nowrap">
                 OKINAWA GOLF TRIP 2026
