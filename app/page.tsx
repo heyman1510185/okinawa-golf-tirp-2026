@@ -138,12 +138,8 @@ export default function Home() {
               <p className="text-xs uppercase tracking-[0.4em] text-sky-100/90">
                 Travel Shiori
               </p>
-              <h1 className="text-white">
-                <img
-                  src="/title.svg"
-                  alt="OKINAWA GOLF TRIP 2026"
-                  className="h-auto w-[320px] max-w-full"
-                />
+              <h1 className="title-font text-[24px] font-bold text-white whitespace-nowrap">
+                OKINAWA GOLF TRIP 2026
               </h1>
               <p className="mt-2 text-sm text-sky-100/90">{rangeLabel}</p>
             </div>
