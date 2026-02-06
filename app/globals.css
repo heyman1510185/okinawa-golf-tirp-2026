@@ -13,19 +13,21 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(180deg, #2B7DB0 0%, #63A9D4 100%);
+  background: #ffffff;
   color: #0f1f2b;
   font-family: var(--font-body), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-main {
+.app-shell {
   position: relative;
+  background: linear-gradient(180deg, #2B7DB0 0%, #63A9D4 100%);
+  min-height: 100vh;
 }
 
 .noise-layer {
-  position: fixed;
+  position: absolute;
   inset: 0;
   pointer-events: none;
   opacity: 0.06;

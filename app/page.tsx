@@ -129,26 +129,20 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen">
-      <div className="mx-auto max-w-[480px] px-5 pb-24 pt-8">
+    <main className="min-h-screen bg-white">
+      <div className="app-shell mx-auto max-w-[480px] px-5 pb-24 pt-8">
+        <div className="noise-layer" aria-hidden="true" />
         <header className="mb-7">
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-sky-100/90">
                 Travel Shiori
               </p>
-              <h1 className="title-font text-3xl text-white">
+              <h1 className="title-font text-[26px] font-bold text-white whitespace-nowrap">
                 OKINAWA GOLF TRIP 2026
               </h1>
               <p className="mt-2 text-sm text-sky-100/90">{rangeLabel}</p>
             </div>
-            <button
-              onClick={handleShare}
-              className="rounded-full bg-sand-50/80 px-4 py-2 text-xs font-medium text-ocean-700 shadow-soft"
-              type="button"
-            >
-              Share
-            </button>
           </div>
         </header>
 

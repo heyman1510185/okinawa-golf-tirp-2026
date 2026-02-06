@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Jersey_25, Zen_Kaku_Gothic_New } from "next/font/google";
+import { Oswald, Zen_Kaku_Gothic_New } from "next/font/google";
 import "./globals.css";
 
-const displayFont = Jersey_25({
-  weight: "400",
+const displayFont = Oswald({
+  weight: ["600", "700"],
   subsets: ["latin"],
   variable: "--font-display"
 });
@@ -27,7 +27,6 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${displayFont.variable} ${bodyFont.variable}`}>
       <body>
-        <div className="noise-layer" aria-hidden="true" />
         {children}
       </body>
     </html>
